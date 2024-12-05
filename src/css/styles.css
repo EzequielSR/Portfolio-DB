@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'TT-Supermolot-Neue-Trial';
+    src: url('../tt-supermolot-neue-font-family-1733306246-0/TT-Supermolot-Neue-Trial-Regular-BF65fcfb4f8c934.ttf');
+}
+@font-face {
+    font-family: 'TT-Supermolot-Neue-Trial-Bold';
+    src: url('../tt-supermolot-neue-font-family-1733306246-0/TT-Supermolot-Neue-Trial-Bold-BF65fcfb49ac589.ttf');
+}
+body{
+    font-family: 'TT-Supermolot-Neue-Trial',sans-serif;
+
+}
+
+header{
+    height: 87px;
+    padding: 25px 25px 15px 25px;
+    background-color:#85d4f4;
+    display: flex;
+    justify-content: space-between;
+}
+img#logo{
+
+}
+nav#navegacao{
+    display: flex;
+    align-items: center;
+}
+
+ul#links-navegacao{
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10px ;
+}
+ul#links-navegacao li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px 8px 16px;
+}
+
+#links-navegacao li a{
+    text-decoration: none;
+    color: #414ABA;
+    font-family: 'TT-Supermolot-Neue-Trial-Bold',sans-serif;
+    font-size: 18px;
+}
+
+nav#redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+ul#redes-sociais{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+ul#redes-sociais li{
+    width: 48px;
+    height: 44px;
+}
+
+main{
+    padding: 4rem;
+}
