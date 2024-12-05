@@ -17,7 +17,9 @@
                                            alt="Logo da empresa DB"></a>
         <ul id="links-navegacao">
             <li style="width: 200px"><a href="index.html" target="_self">Sobre</a></li>
-            <li style="width: 200px"><a href="https://drive.google.com/file/d/1Ip7OCF5d05QAan3S6SQk-pYALkzwoUNV/view?usp=sharing" target="_blank">Currículo</a></li>
+            <li style="width: 200px"><a
+                    href="https://drive.google.com/file/d/1Ip7OCF5d05QAan3S6SQk-pYALkzwoUNV/view?usp=sharing"
+                    target="_blank">Currículo</a></li>
             <li style="width: 200px"><a href="projetos.html" target="_self">Projetos</a></li>
         </ul>
     </nav>
@@ -37,70 +39,72 @@
 
 
 <main>
-    <section class="profile" style="display: flex; gap: 3rem; justify-content: space-between">
-        <div><h1 style="font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif">Olá, meu nome é <br>
-            <span style="font-family:'Roboto Flex'; font-weight: 700; font-size: 80px">Ezequiel</span>
-        </h1>
+    <section class="profile">
+        <div class="profile-container">
+            <h1>Olá, meu nome é <br>
+                <span>Ezequiel</span>
+            </h1>
             <p style="font-family: 'TT-Supermolot-Neue-Trial', sans-serif; font-size: 36px;">Sou trainee de
-                desenvolvimento <br> de software na DBServer.</p>
+                desenvolvimento <br>
+                de software na DBServer.</p>
         </div>
         <img src="assets/imgs/Rectangle%203.png" alt="Foto de Ana Maria">
     </section>
-    <section style="display: flex
-;
-    justify-content: space-between;
-    margin-top: 35px;">
-        <div class="about" style="width: 50%">
-            <h2 style="font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif; font-size: 36px">Sobre mim</h2>
-            <p style="width: 360px; height: 181px; font-family: 'Roboto Flex'; margin-top: 20px">Lorem ipsum dolor sit amet, consectetur
+    <section class="container">
+        <div class="about">
+            <h2>Sobre mim</h2>
+            <p>Lorem ipsum dolor sit
+                amet, consectetur
                 adipiscing elit. Sed diam urna, euismod at porttitor in, dignissim eu mauris. In sem nibh, viverra eu
                 risus sed, accumsan luctus dui. Fusce ex neque, maximus quis dui et, rutrum sollicitudin sem. elit. Sed
                 diam urna, euismod at porttitor in, dignissim eu mauris. In sem nibh, viverra eu risus sed, accumsan
                 luctus dui. Fusce ex neque, maximus quis dui et, rutrum sollicitudin sem.</p>
         </div>
 
-        <div class="skills" style="width: 47%">
-            <h2 style="font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif; font-size: 36px">Habilidades</h2>
-            <div style="margin-top: 20px">
+        <div class="skills">
+            <h2>Habilidades</h2>
+            <div class="backEnd-skills">
                 <h3>Back end</h3>
-                <div style="display: flex; justify-content: space-between; width: 57%">
-                    <ul style="padding-left: 20px; list-style: disc; line-height: 27px">
-                        <li style="margin-left: 10px;"><span>HTML</span></li>
-                        <li style="margin-left: 10px">CSS</li>
-                        <li style="margin-left: 10px">JAVASCRIPT</li>
-                        <li style="margin-left: 10px">REACT</li>
-                        <li style="margin-left: 10px">NODE</li>
-
-                    </ul>
-                    <div>
-                        <ul style="list-style: none">
-                            <li><img src="assets/status/Frame%203.png"></li>
-                            <li><img src="assets/status/Frame%204.png"></li>
-                            <li><img src="assets/status/Frame%205.png"></li>
-                            <li><img src="assets/status/Frame%205.png"></li>
-                            <li><img src="assets/status/Frame%207.png"></li>
+                <div class="backEnd-container">
+                    <div class="ul-skills-backend">
+                        <ul>
+                            <li><span>HTML</span></li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                            <li>REACT</li>
+                            <li>NODE</li>
+                        </ul>
+                    </div>
+                    <div class="imgs-skills">
+                        <ul>
+                            <li><img src="assets/status/Frame%203.png" alt="Imagem status"></li>
+                            <li><img src="assets/status/Frame%204.png" alt="Imagem status"></li>
+                            <li><img src="assets/status/Frame%205.png" alt="Imagem status"></li>
+                            <li><img src="assets/status/Frame%205.png" alt="Imagem status"></li>
+                            <li><img src="assets/status/Frame%207.png" alt="Imagem status"></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div style="margin-top: 20px">
+            <div class="frontEnd-skills">
                 <h3>Front end</h3>
-                <div style="display: flex; justify-content: space-between; width: 57%">
-                    <ul style="padding-left: 20px; list-style: disc; line-height: 27px">
-                        <li style="margin-left: 10px;"><span>HTML</span></li>
-                        <li style="margin-left: 10px">CSS</li>
-                        <li style="margin-left: 10px">JAVASCRIPT</li>
-                        <li style="margin-left: 10px">REACT</li>
-                        <li style="margin-left: 10px">NODE</li>
-
-                    </ul>
-                    <div>
-                        <ul style="list-style: none">
-                            <li><img src="assets/status/Frame%203.png"></li>
-                            <li><img src="assets/status/Frame%204.png"></li>
-                            <li><img src="assets/status/Frame%205.png"></li>
-                            <li><img src="assets/status/Frame%205.png"></li>
-                            <li><img src="assets/status/Frame%207.png"></li>
+                <div class="frontEnd-container">
+                    <div class="ul-skills-frontend">
+                        <ul>
+                            <li><span>HTML</span></li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                            <li>REACT</li>
+                            <li>NODE</li>
+                        </ul>
+                    </div>
+                    <div class="imgs-skills">
+                        <ul>
+                            <li><img src="assets/status/Frame%203.png" alt="Imagem status"></li>
+                            <li><img src="assets/status/Frame%204.png" alt="Imagem status"></li>
+                            <li><img src="assets/status/Frame%205.png" alt="Imagem status"></li>
+                            <li><img src="assets/status/Frame%205.png" alt="Imagem status"></li>
+                            <li><img src="assets/status/Frame%207.png" alt="Imagem status"></li>
                         </ul>
                     </div>
                 </div>

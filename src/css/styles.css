@@ -74,3 +74,88 @@ ul#redes-sociais li{
 main{
     padding: 4rem;
 }
+
+section.profile{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+.profile-container h1{
+    font-family: 'TT-Supermolot-Neue-Trial-Bold',sans-serif;
+}
+
+.profile-container span{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 80px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.about{
+    width: 50%;
+}
+
+.about h2{
+    font-family: 'TT-Supermolot-Neue-Trial-Bold',sans-serif;
+    font-size: 36px;
+}
+
+.about p{
+    width: 360px;
+    height: 181px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: 20px;
+}
+
+.skills{
+    width: 47%;
+}
+.skills h2{
+    font-family: 'TT-Supermolot-Neue-Trial-Bold',sans-serif;
+    font-size: 36px;
+}
+
+.backEnd-skills{
+    margin-top: 20px;
+}
+
+.backEnd-container{
+    display: flex;
+    justify-content: space-between;
+    width: 57%;
+}
+
+.ul-skills-backend ul{
+    padding-left: 20px;
+    line-height: 27px;
+}
+
+.backEnd-container ul li{
+    margin-left: 10px;
+}
+
+.imgs-skills ul{
+    list-style: none;
+}
+
+.frontEnd-skills{
+    margin-top: 20px;
+}
+
+.frontEnd-container{
+    display: flex;
+    justify-content: space-between;
+    width: 57%;
+}
+
+.ul-skills-frontend ul{
+    padding-left: 20px;
+    line-height: 27px;
+}
+
+.frontEnd-container ul li{
+    margin-left: 10px;
+}
