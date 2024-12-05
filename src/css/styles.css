@@ -1,161 +1,237 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: 'TT-Supermolot-Neue-Trial';
     src: url('../tt-supermolot-neue-font-family-1733306246-0/TT-Supermolot-Neue-Trial-Regular-BF65fcfb4f8c934.ttf');
 }
+
 @font-face {
     font-family: 'TT-Supermolot-Neue-Trial-Bold';
     src: url('../tt-supermolot-neue-font-family-1733306246-0/TT-Supermolot-Neue-Trial-Bold-BF65fcfb49ac589.ttf');
 }
-body{
-    font-family: 'TT-Supermolot-Neue-Trial',sans-serif;
+
+body {
+    font-family: 'TT-Supermolot-Neue-Trial', sans-serif;
 
 }
 
-header{
+header {
     height: 87px;
     padding: 25px 25px 15px 25px;
-    background-color:#85d4f4;
+    background-color: #85d4f4;
     display: flex;
     justify-content: space-between;
 }
-img#logo{
+
+img#logo {
 
 }
-nav#navegacao{
+
+nav#navegacao {
     display: flex;
     align-items: center;
 }
 
-ul#links-navegacao{
+ul#links-navegacao {
     margin-left: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 10px ;
+    gap: 10px;
 }
-ul#links-navegacao li{
+
+ul#links-navegacao li {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 8px 16px 8px 16px;
 }
 
-#links-navegacao li a{
+#links-navegacao li a {
     text-decoration: none;
     color: #414ABA;
-    font-family: 'TT-Supermolot-Neue-Trial-Bold',sans-serif;
+    font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
     font-size: 18px;
 }
 
-nav#redes{
+nav#redes {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 30px;
 }
 
-ul#redes-sociais{
+ul#redes-sociais {
     display: flex;
     gap: 20px;
     list-style: none;
 
 }
-ul#redes-sociais li{
+
+ul#redes-sociais li {
     width: 48px;
     height: 44px;
 }
 
-main{
+main {
     padding: 4rem;
 }
 
-section.profile{
+section.profile {
     display: flex;
     gap: 3rem;
     justify-content: space-between;
 }
-.profile-container h1{
-    font-family: 'TT-Supermolot-Neue-Trial-Bold',sans-serif;
+
+.profile-container h1 {
+    font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
 }
 
-.profile-container span{
+.profile-container span {
     font-family: 'Roboto Flex', sans-serif;
     font-size: 80px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
     margin-top: 35px;
 }
 
-.about{
+.about {
     width: 50%;
 }
 
-.about h2{
-    font-family: 'TT-Supermolot-Neue-Trial-Bold',sans-serif;
+.about h2 {
+    font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
     font-size: 36px;
 }
 
-.about p{
+.about p {
     width: 360px;
     height: 181px;
     font-family: 'Roboto Flex', sans-serif;
     margin-top: 20px;
 }
 
-.skills{
+.skills {
     width: 47%;
 }
-.skills h2{
-    font-family: 'TT-Supermolot-Neue-Trial-Bold',sans-serif;
+
+.skills h2 {
+    font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
     font-size: 36px;
 }
 
-.backEnd-skills{
+.backEnd-skills {
     margin-top: 20px;
 }
 
-.backEnd-container{
+.backEnd-container {
     display: flex;
     justify-content: space-between;
     width: 57%;
 }
 
-.ul-skills-backend ul{
+.ul-skills-backend ul {
     padding-left: 20px;
     line-height: 27px;
 }
 
-.backEnd-container ul li{
+.backEnd-container ul li {
     margin-left: 10px;
 }
 
-.imgs-skills ul{
+.imgs-skills ul {
     list-style: none;
 }
 
-.frontEnd-skills{
+.frontEnd-skills {
     margin-top: 20px;
 }
 
-.frontEnd-container{
+.frontEnd-container {
     display: flex;
     justify-content: space-between;
     width: 57%;
 }
 
-.ul-skills-frontend ul{
+.ul-skills-frontend ul {
     padding-left: 20px;
     line-height: 27px;
 }
 
-.frontEnd-container ul li{
+.frontEnd-container ul li {
     margin-left: 10px;
+}
+
+.head-card h2 {
+    font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
+    font-size: 36px;
+}
+
+.head-card h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 80px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: left;
+    width: 300px; /* Ajuste a largura conforme necessário */
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 32px;
+    margin: 10px 0 10px 0;
+}
+
+.card p {
+    text-align: left;
+    margin: 10px 0 10px 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 24px 0;
+}
+
+.buttons button {
+    margin: 0 5px;
+    padding: 12px 16px;
+    background-color: #414ABA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
+    font-size: 18px;
+    width: 100%;
+}
+
+.card span {
+    font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
+    color: #ED177D;
 }

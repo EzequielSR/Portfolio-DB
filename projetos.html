@@ -9,50 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
           rel="stylesheet">
     <link rel="shortcut icon" href="assets/imgs/Logo%20DB%20dark%20blue%201.png" type="image/x-icon">
-    <style>
-        .card {
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            padding: 20px;
-            text-align: left;
-            width: 300px; /* Ajuste a largura conforme necessário */
-        }
-
-        .card img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-
-        .card h2{
-            font-size: 32px;
-            margin: 10px 0 10px 0;
-        }
-        .card p {
-            text-align: left;
-            margin: 10px 0 10px 0;
-            font-family: 'Roboto Flex', sans-serif;
-        }
-
-        .buttons {
-            display: flex;
-            justify-content: center;
-            margin: 10px 0 24px 0;
-        }
-
-        .buttons button {
-            margin: 0 5px;
-            padding: 12px 16px;
-            background-color: #414ABA;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
-            font-size: 18px;
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
 <header>
@@ -61,63 +17,67 @@
                                            alt="Logo da empresa DB"></a>
         <ul id="links-navegacao">
             <li style="width: 200px"><a href="index.html" target="_self">Sobre</a></li>
-            <li style="width: 200px"><a href="https://drive.google.com/file/d/1Ip7OCF5d05QAan3S6SQk-pYALkzwoUNV/view?usp=sharing" target="_blank">Currículo</a></li>
+            <li style="width: 200px"><a
+                    href="https://drive.google.com/file/d/1Ip7OCF5d05QAan3S6SQk-pYALkzwoUNV/view?usp=sharing"
+                    target="_blank">Currículo</a></li>
             <li style="width: 200px"><a href="projetos.html" target="_self">Projetos</a></li>
         </ul>
     </nav>
     <nav id="redes">
         <ul id="redes-sociais">
             <li>
-                <a href="https://github.com/EzequielSR"><img src="assets/imgs/Vector.png" alt="Logo do GitHub"></a>
+                <a href="https://github.com/EzequielSR" target="_blank"><img src="assets/imgs/Vector.png" alt="Logo do GitHub"></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/ezequiel-de-souza-rodrigues-25b538227/"><img
+                <a href="https://www.linkedin.com/in/ezequiel-de-souza-rodrigues-25b538227/" target="_blank"><img
                         src="assets/imgs/Vector%20(1).png" alt="Logo do Linkedin"></a>
             </li>
-
         </ul>
     </nav>
 </header>
 <main>
-    <section id="corpo">
-        <div>
-            <h2 style="font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif; font-size: 36px">Meus</h2>
-            <h1 style="font-family: 'Roboto Flex'; font-size: 80px">Projetos</h1>
+    <section>
+        <div class="head-card">
+            <h2>Meus</h2>
+            <h1>Projetos</h1>
         </div>
-        <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 70px">
+        <div class="card-container">
             <div class="card">
                 <img src="assets/imgs/Rectangle%202.png" alt="Descrição da imagem">
                 <h2>Calculadora</h2>
-                <p style="color: #ED177D; font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif"> HTML, CSS, Node</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam urna, euismod at porttitor in, dignissim eu mauris. In sem nibh, viverra eu risus sed, accumsan luctus dui. Fusce ex neque, maximus quis dui et, rutrum sollicitudin sem.</p>
+                <span> HTML, CSS, Node</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam urna, euismod at porttitor in,
+                    dignissim eu mauris. In sem nibh, viverra eu risus sed, accumsan luctus dui. Fusce ex neque, maximus
+                    quis dui et, rutrum sollicitudin sem.</p>
                 <div class="buttons">
                     <button>Acessar</button>
-
                 </div>
             </div>
-                <div class="card">
-                    <img src="assets/imgs/Rectangle%202%20(1).png" alt="Descrição da imagem">
-                    <h2>Blog Pessoal</h2>
-                    <p style="color: #ED177D; font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;"> HTML, CSS, Node</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam urna, euismod at porttitor in, dignissim eu mauris. In sem nibh, viverra eu risus sed, accumsan luctus dui. Fusce ex neque, maximus quis dui et, rutrum sollicitudin sem..</p>
-                    <div class="buttons">
-                        <button>Github</button>
-                        <button>Deploy</button>
-                    </div>
+            <div class="card">
+                <img src="assets/imgs/Rectangle%202%20(1).png" alt="Descrição da imagem">
+                <h2>Blog Pessoal</h2>
+                <span> HTML, CSS, Node</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam urna, euismod at porttitor in,
+                    dignissim eu mauris. In sem nibh, viverra eu risus sed, accumsan luctus dui. Fusce ex neque, maximus
+                    quis dui et, rutrum sollicitudin sem..</p>
+                <div class="buttons">
+                    <button>Github</button>
+                    <button>Deploy</button>
                 </div>
-                    <div class="card">
-                        <img src="assets/imgs/Rectangle%202%20(2).png" alt="Descrição da imagem">
-                        <h2>Mobile</h2>
-                        <p style="color: #ED177D; font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;"> Android studio, Kotlin </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam urna, euismod at porttitor in, dignissim eu mauris. In sem nibh, viverra eu risus sed, accumsan luctus dui. Fusce ex neque, maximus quis dui et, rutrum sollicitudin sem.</p>
-                        <div class="buttons">
-                            <button>Acessar</button>
-                            <button>Deploy</button>
-                        </div>
-                    </div>
-
+            </div>
+            <div class="card">
+                <img src="assets/imgs/Rectangle%202%20(2).png" alt="Descrição da imagem">
+                <h2>Mobile</h2>
+                <span> Android studio, Kotlin </span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam urna, euismod at porttitor in,
+                    dignissim eu mauris. In sem nibh, viverra eu risus sed, accumsan luctus dui. Fusce ex neque, maximus
+                    quis dui et, rutrum sollicitudin sem.</p>
+                <div class="buttons">
+                    <button>Acessar</button>
+                    <button>Deploy</button>
                 </div>
-
+            </div>
+        </div>
     </section>
 </main>
 
