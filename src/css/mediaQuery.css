@@ -1,5 +1,4 @@
 
-
 header #navegacao {
     display: flex;
     justify-content: space-between;
@@ -34,16 +33,14 @@ main .profile {
     padding: 20px;
 }
 
-/* Estilos responsivos para telas menores */
+
 @media (max-width: 1024px) {
     #links-navegacao li {
         width: auto;
     }
-    header{
+
+    header {
         height: auto;
-    }
-    nav#redes{
-        width: 100%;
     }
 
     main .profile {
@@ -52,15 +49,15 @@ main .profile {
     }
 
     .container {
-        grid-template-columns: 1fr; /* Uma coluna para dispositivos menores */
+        grid-template-columns: 1fr;
 
     }
 
-    .card-container{
+    .card-container {
         display: flex;
     }
 
-    .card{
+    .card {
         width: 100%;
         margin: 0 15px;
     }
@@ -69,52 +66,70 @@ main .profile {
 }
 
 @media (max-width: 768px) {
-    header{
+    header {
         height: auto;
         justify-content: space-around;
         flex-direction: column;
 
     }
+
     #navegacao {
         flex-direction: column;
         gap: 10px;
     }
-    ul#links-navegacao  {
-        margin: 0;
+
+    #menu-toggle {
+        display: flex;
     }
-    #links-navegacao {
+
+    ul#links-navegacao {
         flex-direction: column;
-        align-items: center;
+        width: 100%;
+        background-color: #85d4f4;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease, height .3s ease;
+        height: 0;
+        overflow: hidden;
     }
-    nav#redes{
+
+    ul#links-navegacao.active {
+        margin: 15px 0;
+        opacity: 1;
+        transform: translateY(0);
+        height: auto;
+    }
+
+    nav#redes {
         margin: 15px 0 0 0;
     }
 
-    ul#redes-sociais li{
+    ul#redes-sociais li {
         width: 100%;
     }
 
     .profile img {
-        width: 80%; /* Reduz o tamanho da imagem */
+        width: 80%;
     }
 
-    .card-container{
+    .card-container {
         display: block;
     }
 
-    .card{
+    .card {
         width: 100%;
         margin: 15px 0;
     }
 
-    .card img{
-        width: 100%;
-    }
-    .skills{
+    .card img {
         width: 100%;
     }
 
-    .backEnd-container, .frontEnd-container{
+    .skills {
+        width: 100%;
+    }
+
+    .backEnd-container, .frontEnd-container {
         width: 100%;
     }
 

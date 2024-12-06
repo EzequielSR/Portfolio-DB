@@ -29,6 +29,41 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/* Botão de menu - hambúrguer */
+#menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: #414ABA;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+#menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+#menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+@media (max-width: 768px) {
+    #menu-toggle {
+        display: flex;
+    }
+}
 
 
 img{
@@ -197,7 +232,7 @@ section.profile {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     padding: 20px;
     text-align: left;
-    width: 300px; /* Ajuste a largura conforme necessário */
+    width: 300px;
 }
 
 .card img {
