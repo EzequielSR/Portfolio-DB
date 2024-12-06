@@ -29,6 +29,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 /* Botão de menu - hambúrguer */
 #menu-toggle {
     display: none;
@@ -47,6 +48,7 @@ header {
     display: block;
     transition: all 0.3s ease-in-out;
 }
+
 #menu-toggle.active span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
@@ -66,7 +68,7 @@ header {
 }
 
 
-img{
+img {
 
     height: auto;
 }
@@ -159,7 +161,6 @@ section.profile {
     font-family: 'Roboto Flex', sans-serif;
     margin-top: 20px;
 }
-
 
 
 .skills h2 {
@@ -273,4 +274,13 @@ section.profile {
 .card span {
     font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
     color: #ED177D;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #85D4F4;
+    padding: 15px
 }
