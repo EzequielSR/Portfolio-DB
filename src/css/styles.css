@@ -298,6 +298,11 @@ section.profile img {
     margin: 10px 0 10px 0;
     font-family: 'Roboto Flex', sans-serif;
 }
+.card a{
+    text-decoration: none;
+    color: white;
+    font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
+}
 
 .buttons {
     display: flex;
