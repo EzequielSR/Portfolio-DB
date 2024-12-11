@@ -266,6 +266,8 @@ section.profile img {
     justify-content: space-around;
     align-items: center;
     margin-top: 70px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .card {
