@@ -18,12 +18,12 @@ body {
     font-family: 'TT-Supermolot-Neue-Trial', sans-serif;
     width: 100%;
     height: 100vh;
-
+    font-size: 1rem;
 }
 
 header {
-    height: 87px;
-    padding: 25px 25px 15px 25px;
+    height: 12vh;
+    padding: 2vh 2vw;
     background-color: #85d4f4;
     display: flex;
     justify-content: space-between;
@@ -36,19 +36,19 @@ nav#navegacao {
 }
 
 ul#links-navegacao {
-    margin-left: 32px;
+    margin-left: 3vw;
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 10px;
+    gap: 1vw;
 }
 
 ul#links-navegacao li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8px 16px 8px 16px;
+    padding: .5rem 1rem;
     position: relative;
     color: #414ABA;
     cursor: pointer;
@@ -156,7 +156,7 @@ ul#redes-sociais li:hover img {
 }
 
 main {
-    padding: 4rem;
+    padding: 4vh;
 }
 
 section.profile {
@@ -178,17 +178,17 @@ section.profile {
 section.profile img {
     max-width: 100%;
     width: 35%;
-    margin-right: 35px;
+    margin-right: 2vw;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    margin-top: 35px;
+    margin-top: 5vh;
 }
 
 .about {
-    width: 50%;
+    width: 80%;
 }
 
 .about h2 {
@@ -197,8 +197,8 @@ section.profile img {
 }
 
 .about p {
-    width: 360px;
-    height: 181px;
+    width: 100%;
+    height: auto;
     font-family: 'Roboto Flex', sans-serif;
     margin-top: 20px;
 }
@@ -275,14 +275,14 @@ section.profile img {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     text-align: left;
-    width: 300px;
+    width: 25vw;
     position: relative;
 }
 
 .card img {
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: 183px;
+    height: auto;
     object-fit: cover;
 }
 
