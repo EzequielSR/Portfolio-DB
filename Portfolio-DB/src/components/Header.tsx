@@ -27,10 +27,10 @@ const Header: React.FC = () => {
                 <span></span>
             </button>
             <ul id="links-navegacao">
-                <li>
+                <li  style={{ width: '200px' }}>
                     <Link to="/">Sobre</Link>
                 </li>
-                <li>
+                <li  style={{ width: '200px' }}>
                     <a
                         href="https://drive.google.com/file/d/1Ip7OCF5d05QAan3S6SQk-pYALkzwoUNV/view"
                         target="_blank"
@@ -39,7 +39,7 @@ const Header: React.FC = () => {
                         Currículo
                     </a>
                 </li>
-                <li>
+                <li  style={{ width: '200px' }}>
                     <Link to="/projetos">Projetos</Link>
                 </li>
             </ul>
