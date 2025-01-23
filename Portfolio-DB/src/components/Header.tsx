@@ -2,7 +2,16 @@ import {Link} from "react-router-dom";
 import "../css/styles.css";
 import "../css/mediaQuery.css";
 
-const Header: React.FC = () => (
+const Header: React.FC = () => {
+    const handleMenuToggle = () => {
+        const linksNavegacao = document.getElementById('links-navegacao');
+        const menuToggle = document.getElementById('menu-toggle');
+        if (linksNavegacao && menuToggle) {
+            linksNavegacao.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        };
+    };
+    return(
     <header>
         <nav id="navegacao">
             <a href="https://db.tec.br/" target="_blank" rel="noopener noreferrer">
@@ -12,7 +21,7 @@ const Header: React.FC = () => (
                     alt="Logo da empresa DB"
                 />
             </a>
-            <button id="menu-toggle" aria-label="Abrir Menu">
+            <button id="menu-toggle" aria-label="Abrir Menu" onClick={handleMenuToggle}>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -54,6 +63,7 @@ const Header: React.FC = () => (
             </ul>
         </nav>
     </header>
-)
+    );
+};
 
 export {Header};
