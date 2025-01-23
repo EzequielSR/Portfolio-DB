@@ -1,0 +1,152 @@
+
+header #navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#links-navegacao {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+#redes-sociais {
+    display: flex;
+    gap: .625rem;
+}
+
+main .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    gap: 1.25rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+
+@media (max-width: 1024px) {
+    #links-navegacao li {
+        width: auto;
+    }
+
+    header {
+        height: auto;
+    }
+
+    main .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .card-container {
+        display: flex;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 1rem;
+    }
+
+    .skills {
+        margin-top: 4rem;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        justify-content: space-around;
+        flex-direction: column;
+
+    }
+
+    #navegacao {
+        flex-direction: column;
+        gap: .625rem;
+    }
+
+    #menu-toggle {
+        display: flex;
+    }
+
+    ul#links-navegacao {
+        flex-direction: column;
+        width: 100%;
+        background-color: #85d4f4;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease, height 0.3s ease;
+        height: 0;
+        overflow: hidden;
+    }
+
+    ul#links-navegacao.active {
+        margin: 1rem 0;
+        opacity: 1;
+        transform: translateY(0);
+        height: auto;
+    }
+
+    nav#redes {
+        margin: 1rem 0 0 0;
+    }
+
+    ul#redes-sociais li {
+        width: 100%;
+    }
+
+    .profile img {
+        width: 80%;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card {
+        max-width: 100%;
+        margin: 1.25rem 0;
+    }
+
+    .card img {
+        width: 100%;
+    }
+    section.profile img {
+        width: 60%;
+    }
+    .skills {
+        width: 100%;
+        margin-top: 4rem;
+    }
+    .about{
+        width: 100%;
+    }
+
+    .backEnd-container, .frontEnd-container {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px){
+    #principal{
+        padding:0;
+    }
+}
