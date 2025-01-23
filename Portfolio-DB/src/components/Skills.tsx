@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
                     </div>
                     <div className="imgs-skills">
                         <ul>
-                            <li><img src="../../public/status/Frame%205.png" alt="Imagem status"/></li>
+                            <li><img src="/status/Frame%205.png" alt="Imagem status"/></li>
                             <li><img src="../../public/status/Frame%204.png" alt="Imagem status"/></li>
                             <li><img src="../../public/status/Frame%207.png" alt="Imagem status"/></li>
                             <li><img src="../../public/status/Frame%205.png" alt="Imagem status"/></li>
