@@ -5,7 +5,7 @@ const Footer = () => (
     <footer>
         <div className="footer-container">
             <img
-                src="../../public/assets/d+b dark blue - horizontal (1) 1.png"
+                src="/assets/d+b dark blue - horizontal (1) 1.png"
                 alt="Logo do rodapé"
             />
         </div>

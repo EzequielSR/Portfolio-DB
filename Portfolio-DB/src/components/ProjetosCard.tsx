@@ -12,7 +12,7 @@ const ProjetosCard: React.FC = () => {
                 <div className="card-container">
                     {/* Exemplo de um card, você pode replicar para os outros projetos */}
                     <div className="card">
-                        <img src="../../public/assets/EclipsaGarage.png" alt="Descrição da imagem"/>
+                        <img src="/assets/EclipsaGarage.png" alt="Descrição da imagem"/>
                         <div className="card-about">
                             <h2>EclipsaGarage</h2>
                             <span> HTML, CSS</span>
@@ -30,7 +30,7 @@ const ProjetosCard: React.FC = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="../../public/assets/BoraJogar.png" alt="Descrição da imagem"/>
+                        <img src="/assets/BoraJogar.png" alt="Descrição da imagem"/>
                         <div className="card-about">
                             <h2>BoraJogar</h2>
                             <span> HTML, CSS, JS, Bootstrap</span>
@@ -47,7 +47,7 @@ const ProjetosCard: React.FC = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="../../public/assets/ODesafioSimon.png" alt="Descrição da imagem"/>
+                        <img src="/assets/ODesafioSimon.png" alt="Descrição da imagem"/>
                         <div className="card-about">
                             <h2>O Desafio Simon</h2>
                             <span> HTML, CSS, JQuery</span>
@@ -66,7 +66,7 @@ const ProjetosCard: React.FC = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="../../public/assets/Produto-API.png" alt="Descrição da imagem"/>
+                        <img src="/assets/Produto-API.png" alt="Descrição da imagem"/>
                         <div className="card-about">
                             <h2>Produto API - Testes de Integração</h2>
                             <span>JAVA, SpringBoot, JUnity, MockMvc</span>
@@ -83,7 +83,7 @@ const ProjetosCard: React.FC = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="../../public/assets/ip-address-tracker.png" alt="Descrição da imagem"/>
+                        <img src="/assets/ip-address-tracker.png" alt="Descrição da imagem"/>
                         <div className="card-about">
                             <h2>IP Address Tracker</h2>
                             <span>React, JavaScript, Node.js, Express, LeafletJS, Axios</span>

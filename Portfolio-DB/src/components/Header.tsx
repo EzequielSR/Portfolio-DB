@@ -17,7 +17,7 @@ const Header: React.FC = () => {
             <a href="https://db.tec.br/" target="_blank" rel="noopener noreferrer">
                 <img
                     id="logo"
-                    src="../../public/assets/Logo DB dark blue 1.png"
+                    src="/assets/Logo DB dark blue 1.png"
                     alt="Logo da empresa DB"
                 />
             </a>
@@ -48,7 +48,7 @@ const Header: React.FC = () => {
             <ul id="redes-sociais">
                 <li>
                     <a href="https://github.com/EzequielSR" target="_blank" rel="noopener noreferrer">
-                        <img src="../../public/assets/Vector.png" alt="Logo do GitHub"/>
+                        <img src="/assets/Vector.png" alt="Logo do GitHub"/>
                     </a>
                 </li>
                 <li>
@@ -57,7 +57,7 @@ const Header: React.FC = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="../../public/assets/Vector (1).png" alt="Logo do Linkedin"/>
+                        <img src="/assets/Vector (1).png" alt="Logo do Linkedin"/>
                     </a>
                 </li>
             </ul>
