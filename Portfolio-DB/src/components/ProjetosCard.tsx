@@ -10,7 +10,6 @@ const ProjetosCard: React.FC = () => {
                     <h1>Projetos</h1>
                 </div>
                 <div className="card-container">
-                    {/* Exemplo de um card, você pode replicar para os outros projetos */}
                     <div className="card">
                         <img src="/assets/EclipsaGarage.png" alt="Descrição da imagem"/>
                         <div className="card-about">
