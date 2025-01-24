@@ -69,6 +69,18 @@ main .profile {
 
 }
 
+@media (min-width: 1024px) {
+    .card-about p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 4;
+        text-overflow: ellipsis;
+        max-height: 5.6em;
+        line-height: 1.5em;
+    }
+}
+
 @media (max-width: 768px) {
     header {
         height: auto;
