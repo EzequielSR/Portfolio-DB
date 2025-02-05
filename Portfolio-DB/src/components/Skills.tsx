@@ -14,6 +14,10 @@ const Skills: React.FC = () => {
                             <li>SQL</li>
                             <li>SPRING BOOT</li>
                             <li>POSTGRESQL</li>
+                            <li>RESTASSURED</li>
+                            <li>POSTMAN</li>
+                            <li>H2</li>
+
                         </ul>
                     </div>
                     <div className="imgs-skills">
@@ -22,6 +26,9 @@ const Skills: React.FC = () => {
                             <li><img src="/status/Frame%204.png" alt="Imagem status"/></li>
                             <li><img src="/status/Frame%207.png" alt="Imagem status"/></li>
                             <li><img src="/status/Frame%205.png" alt="Imagem status"/></li>
+                            <li><img src="/status/Frame%205.png" alt="Imagem status"/></li>
+                            <li><img src="/status/Frame%204.png" alt="Imagem status"/></li>
+                            <li><img src="/status/Frame%204.png" alt="Imagem status"/></li>
                         </ul>
                     </div>
                 </div>
@@ -37,6 +44,7 @@ const Skills: React.FC = () => {
                             <li>JQUERY</li>
                             <li>REACT</li>
                             <li>NODE</li>
+                            <li>CYPRESS</li>
                         </ul>
                     </div>
                     <div className="imgs-skills">
@@ -46,6 +54,7 @@ const Skills: React.FC = () => {
                             <li><img src="/status/Frame%204.png" alt="Imagem status"/></li>
                             <li><img src="/status/Frame%204.png" alt="Imagem status"/></li>
                             <li><img src="/status/Frame%205.png" alt="Imagem status"/></li>
+                            <li><img src="/status/Frame%204.png" alt="Imagem status"/></li>
                             <li><img src="/status/Frame%204.png" alt="Imagem status"/></li>
                         </ul>
                     </div>

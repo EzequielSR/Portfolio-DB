@@ -18,6 +18,24 @@ const ProjetosCard: React.FC = () => {
     }, []);
     const projetos = [
         {
+            nome: "Sauce_Demo-DB",
+            tecnologias: "Cypress, JS, HTML",
+            descricao: "O Sauce_Demo-DB é um projeto de automação de testes utilizando Cypress. O objetivo é testar funcionalidades como login, listagem de produtos, carrinho de compras e checkout, garantindo eficiência e qualidade.",
+            imgSrc: "/assets/Sauce-Demo.png",
+            links: {
+                github: "https://github.com/EzequielSR/Sauce_Demo-DB"
+            }
+        },
+        {
+            nome: "Desafio API DB",
+            tecnologias: "JAVA, RestAssured, Maven, JUnity",
+            descricao: "É um desafio com automação de testes para API Rest. O desafio valida o comportamento da API, aplicando Clean Code, Design Patterns, Orientação a Objetos e Arquitetura de Automação.",
+            imgSrc: "/assets/ViaCep.png",
+            links: {
+                github: "https://github.com/EzequielSR/Desafio_API_DB"
+            }
+        },
+        {
             nome: "EclipsaGarage",
             tecnologias: "HTML, CSS",
             descricao: "O EclipsaGarage é um portal de serviços automotivos simples, onde a paixão pelos carros encontra a facilidade de navegação, destacando os serviços e informações de contato para uma experiência intuitiva.",
